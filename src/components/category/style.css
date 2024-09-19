@@ -1,0 +1,11 @@
+.category {
+  display: flex;
+  gap: 15px;
+}
+.category__elem {
+  width: 225px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,33 @@
+.quiz__question {
+  text-align: center;
+}
+.quiz__image img {
+  width: 500px;
+}
+.quiz__answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.quiz__answer {
+  display: flex;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px 5px;
+  position: relative;
+}
+.quiz__answer input {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+.quiz__answer label {
+  width: 100%;
+  padding: 15px 15px 15px 35px;
+  cursor: pointer;
+}
+.quiz__submit {
+  text-align: center;
+}
+.quiz__submit button {
+  min-width: 333px;
+}
