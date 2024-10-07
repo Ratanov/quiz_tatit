@@ -2,8 +2,8 @@ import { useState } from "react";
 import CategorySelection from "./components/category";
 import Quiz from "./components/quiz";
 import Results from "./components/result";
-import { categories as initialCategories } from "./data/questions";
-import { ICategory } from "./types";
+import { categories as initialCategories } from "./assets/data/questions";
+import { ICategory } from "./assets/types";
 
 function App() {
   const [categories, setCategories] = useState<ICategory[]>(

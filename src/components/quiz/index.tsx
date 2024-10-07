@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IQuestion } from "../../types";
+import { IQuestion } from "../../assets/types";
 import "./style.css";
 
 interface Props {

@@ -1,5 +1,5 @@
 import React from "react";
-import { ICategory } from "../../types";
+import { ICategory } from "../../assets/types";
 import "./style.css";
 
 interface Props {
