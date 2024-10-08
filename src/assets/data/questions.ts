@@ -1,7 +1,7 @@
 import { ICategory, IQuestion } from "../types";
-import tiger from './img/tiger.jpg';
-import taj from './img/taj-mahal.jpeg';
-import saturn from './img/saturn.png';
+import tiger from '../img/tiger.jpg';
+import taj from '../img/taj-mahal.jpeg';
+import saturn from '../img/saturn.png';
 
 const questions: { [key: string]: IQuestion[] } = {
   История: [
