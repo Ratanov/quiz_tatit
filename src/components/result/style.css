@@ -1,0 +1,78 @@
+/* result */
+.result {
+  height: 100%;
+  height: 100%;
+}
+.result > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.result-img {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -80%);
+  height: 80%;
+}
+.h2lh {
+  line-height: 1.1;
+}
+.result__all {
+  display: flex;
+  /* height: 100%; */
+}
+.result__category {
+  width: 500px;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 0;
+  color: #03a96a;
+  text-transform: uppercase;
+  margin: 50px 0;
+}
+.result__score-points {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 10px; */
+}
+.result__score {
+  font-size: 200px;
+  font-weight: 700;
+  color: #03a96a;
+  line-height: 1;
+  margin: 0;
+}
+.result__score-text {
+  font-size: 100px;
+  font-weight: 700;
+  color: #03a96a;
+  line-height: 1;
+  margin: 0;
+}
+.result__points {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.btn-result {
+  width: 500px;
+  font-size: 53px;
+  font-weight: 700;
+  background: #f03c46;
+  border-radius: 0;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
