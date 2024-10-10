@@ -121,7 +121,10 @@ function App() {
 
   return (
     <div className="app">
-      <div>
+      <div className="pattern-img">
+        <img src="../../src/assets/img/it-quiz-pattern.png" alt="logo" />
+      </div>
+      <div className="tatneft-logo">
         <img src="../../src/assets/img/tatneft-logo.png" alt="logo" />
       </div>
       {!gameStarted ? (
@@ -133,6 +136,7 @@ function App() {
           categories={categories}
           onSelect={handleCategorySelect}
           onViewResults={handleViewResults}
+          pointsPerQuestion={POINTS_PER_QUESTION}
         />
       ) : viewingResults ? (
         <Results

@@ -18,13 +18,25 @@ const Results: React.FC<Props> = ({
   const totalPoints = category.score * pointsPerQuestion;
 
   return (
-    <div>
-      <h2>Результаты квиза по категории "{category.name}"</h2>
-      <p>
-        Ваш результат: {category.score} из {category.questions.length}
-      </p>
-      <p>Ты набрал(а) {totalPoints} баллов</p>
-      {/* <h3>Ваши ответы:</h3>
+    <div className="result">
+      <img
+        className="result-img"
+        src="../../src/assets/img/heart.svg"
+        alt="result-img"
+      />
+      <h2 className="pattern h2lh mb-0">Твой результат</h2>
+      <h2 className="h2lh">по категории</h2>
+      <div className="result__all">
+        <div className="result__category">{category.name}</div>
+        <div className="result__score-points">
+          <p className="result__score">
+            {category.score}/{category.questions.length}
+          </p>
+          <p className="result__score-text">верно</p>
+          <p className="result__points">Ты набрал(а) {totalPoints} баллов</p>
+        </div>
+
+        {/* <h3>Ваши ответы:</h3>
       {category.questions.map((question, index) => (
         <div key={index}>
           <p>
@@ -55,7 +67,8 @@ const Results: React.FC<Props> = ({
         </div>
       ))}
       <button onClick={onRestart}>Начать заново</button> */}
-      <button onClick={onBack} style={{ marginLeft: "10px" }}>
+      </div>
+      <button className="btn-result" onClick={onBack}>
         Выбрать категорию
       </button>
     </div>

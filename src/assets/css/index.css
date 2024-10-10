@@ -25,6 +25,9 @@ a {
 a:hover {
   color: #535bf2;
 }
+p {
+  margin: 10px 0;
+}
 body {
   margin: 0;
   background: black;
@@ -34,8 +37,10 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-h1, h2, h3 {
-  margin-top: 0;
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 button {
   border-radius: 8px;
@@ -55,16 +60,67 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.mb-0 {
+  margin-bottom: 0!important;
+}
 .app {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  max-width: 1600px;
+  max-width: 1520px;
+  height: 100vh;
   margin-inline: auto;
-  padding: 40px 0;
+  color: white;
 }
 .text-center {
   text-align: center;
+}
+.pattern-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.pattern-img img {
+  max-height: 99.4%;
+}
+.tatneft-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2.pattern {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+h2.pattern::before {
+  content: "";
+  display: inline-block;
+  width: 51px;
+  height: 43px;
+  background: url(../img/element-1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+h2.pattern::after {
+  content: "";
+  display: inline-block;
+  width: 61px;
+  height: 45px;
+  background: url(../img/element-2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+h3 {
+  font-size: 40px;
+  text-transform: uppercase;
 }
 @media (prefers-color-scheme: light) {
   :root {

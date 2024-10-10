@@ -9,9 +9,21 @@ interface Props {
 const Finish: React.FC<Props> = ({ onRestart, totalPoints }) => {
   return (
     <div className="finish">
-      <h2>Поздравляем! Вы завершили квиз.</h2>
-      <p>Общее количество набранных баллов: {totalPoints}</p>
-      <button onClick={onRestart}>Начать заново</button>
+      <img
+        className="result-img"
+        src="../../src/assets/img/heart.svg"
+        alt="result-img"
+      />
+      <h2 className="pattern h2lh mb-0">Твой финальный</h2>
+      <h2 className="h2lh">результат</h2>
+      <p className="finish__points">
+        {totalPoints}
+        <br />
+        баллов
+      </p>
+      <button className="btn-result" onClick={onRestart}>
+        Начать заново
+      </button>
     </div>
   );
 };
