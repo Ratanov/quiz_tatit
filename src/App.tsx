@@ -141,7 +141,7 @@ function App() {
       ) : viewingResults ? (
         <Results
           category={viewingResults}
-          onRestart={() => handleCategorySelect(viewingResults)}
+          // onRestart={() => handleCategorySelect(viewingResults)}
           onBack={handleBackToCategories}
           pointsPerQuestion={POINTS_PER_QUESTION}
         />
@@ -156,7 +156,7 @@ function App() {
       ) : (
         <Results
           category={selectedCategory!}
-          onRestart={() => handleCategorySelect(selectedCategory!)}
+          // onRestart={() => handleCategorySelect(selectedCategory!)}
           onBack={handleBackToCategories}
           pointsPerQuestion={POINTS_PER_QUESTION}
         />

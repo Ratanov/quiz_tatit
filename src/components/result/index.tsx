@@ -4,14 +4,14 @@ import "./style.css";
 
 interface Props {
   category: ICategory;
-  onRestart: () => void;
+  // onRestart: () => void;
   onBack: () => void;
   pointsPerQuestion: number;
 }
 
 const Results: React.FC<Props> = ({
   category,
-  onRestart,
+  // onRestart,
   onBack,
   pointsPerQuestion,
 }) => {
