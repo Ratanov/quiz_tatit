@@ -9,7 +9,7 @@ const Start: React.FC<Props> = ({ onStart }) => {
   return (
     <div className="start">
       <div className="start__top">
-        <img src="../../src/assets/img/it-quiz-tatneft.png" alt="" />
+        <img src="images/it-quiz-tatneft.png" alt="it-quiz-tatneft" />
       </div>
       <div className="start__bottom">
         <span className="start__text">

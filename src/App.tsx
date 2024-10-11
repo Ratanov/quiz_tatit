@@ -28,7 +28,6 @@ function App() {
   const [gameFinished, setGameFinished] = useState(false);
   const [completedCategories, setCompletedCategories] = useState(0);
   const [totalPoints, setTotalPoints] = useState(0);
-  console.log('totalPoints App', totalPoints)
 
   const handleStart = () => {
     setGameStarted(true);
@@ -73,7 +72,6 @@ function App() {
 
       setSelectedCategory(updatedCategory);
 
-      console.log('isCorrect App', isCorrect)
       if (isCorrect) {
         setTotalPoints(totalPoints + POINTS_PER_QUESTION);
       }
@@ -122,10 +120,10 @@ function App() {
   return (
     <div className="app">
       <div className="pattern-img">
-        <img src="../../src/assets/img/it-quiz-pattern.png" alt="logo" />
+        <img src="images/it-quiz-pattern.png" alt="logo" />
       </div>
       <div className="tatneft-logo">
-        <img src="../../src/assets/img/tatneft-logo.png" alt="logo" />
+        <img src="images/tatneft-logo.png" alt="logo" />
       </div>
       {!gameStarted ? (
         <Start onStart={handleStart} />

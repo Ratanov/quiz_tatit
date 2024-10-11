@@ -1,4 +1,5 @@
 .finish__points {
+    position: relative;
     font-size: 300px;
     font-weight: 700;
     line-height: 1;

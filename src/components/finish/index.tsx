@@ -7,12 +7,11 @@ interface Props {
 }
 
 const Finish: React.FC<Props> = ({ onRestart, totalPoints }) => {
-  console.log('totalPoints finish', totalPoints)
   return (
     <div className="finish">
       <img
         className="result-img"
-        src="../../src/assets/img/heart.svg"
+        src="images/heart.svg"
         alt="result-img"
       />
       <h2 className="pattern h2lh mb-0">Твой финальный</h2>

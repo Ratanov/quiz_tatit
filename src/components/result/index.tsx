@@ -21,7 +21,7 @@ const Results: React.FC<Props> = ({
     <div className="result">
       <img
         className="result-img"
-        src="../../src/assets/img/heart.svg"
+        src="images/heart.svg"
         alt="result-img"
       />
       <h2 className="pattern h2lh mb-0">Твой результат</h2>
