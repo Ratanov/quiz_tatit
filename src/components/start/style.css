@@ -1,0 +1,39 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  padding-top: 100px;
+}
+.start__top img {
+  top: 20px;
+  right: 20px;
+}
+.start__bottom {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.start__text {
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+}
+.btn-start {
+  width: 560px;
+  border-radius: 0;
+  background: #f03c46;
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 0;
+  margin-left: auto;
+}
+.btn-start:active {
+  background: #03a96a;
+}
