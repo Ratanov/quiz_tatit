@@ -2,12 +2,14 @@
 .category__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 22vh);
   gap: 40px;
+  margin-top: 8vh;
 }
 .btn-category {
   width: 100%;
-  height: 250px;
-  font-size: 40px;
+  height: 100%;
+  font-size: 4vh;
   font-weight: 700;
   color: #03a96a;
   text-transform: uppercase;

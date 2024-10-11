@@ -670,7 +670,7 @@ const questions: { [key: string]: IQuestion[] } = {
       correctAnswer: 3,
     },
   ],
-  "Искусственный интеллект и машинное обучение": [
+  "Машинное обучение": [
     {
       question: "Что такое глубокое обучение (deep learning)?",
       options: [
