@@ -18,11 +18,10 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 .quiz__question {
   height: 120px;
-  margin-bottom: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +32,7 @@
 .quiz__answers {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 20vh 20vh;
   gap: 40px;
 }
 .quiz__answer {
@@ -63,6 +62,8 @@
   justify-content: center;
   cursor: pointer;
   padding: 20px;
+  text-transform: uppercase;
+  text-wrap: balance;
 }
 .btn-quiz {
   width: 500px;
@@ -71,6 +72,7 @@
   background: #f03c46;
   border-radius: 0;
   color: white;
-  margin: 80px auto 0;
+  margin: 0 auto;
   text-transform: uppercase;
+  margin-bottom: 8vh;
 }
