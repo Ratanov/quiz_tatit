@@ -5,25 +5,25 @@ const questions: { [key: string]: IQuestion[] } = {
     {
       question: "Какой город является столицей Татарстана?",
       options: ["Казань", "Набережные Челны", "Альметьевск", "Иннополис"],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
         "Какое татарское блюдо традиционно готовится из теста с мясом и картофелем?",
       options: ["Блины", "Эчпочмак", "Беляш", "Чебуреки"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
         "Какой праздник отмечается в Татарстане как день урожая и труда?",
       options: ["Наурыз", "Сабантуй", "Ураза-байрам", "Курбан-байрам"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
         "Какой татарский музыкальный инструмент считается символом татарской музыки?",
       options: ["Гусли", "Курай", "Балалайка", "Домра"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
@@ -34,13 +34,13 @@ const questions: { [key: string]: IQuestion[] } = {
         "Церковь Петра и Павла",
         "Дворец земледельцев",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
         "Какое традиционное татарское лакомство готовится из меда и теста?",
       options: ["Баклава", "Пахлава", "Торт «Наполеон»", "Чак-чак"],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
     {
       question:
@@ -49,25 +49,25 @@ const questions: { [key: string]: IQuestion[] } = {
         "Ренат Харис",
         "Муса Джалиль",
         "Сибгатулла Ремизов",
-        " Габдулла Тукай",
+        "Габдулла Тукай",
       ],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
     {
       question: "Какой из этих городов не находится в Татарстане?",
       options: ["Чистополь", "Набережные Челны", "Нефтекамск", "Зеленодольск"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: "Какое животное является символом Татарстана?",
       options: ["Дракон", "Барс", "Лебедь", "Тигр"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
         "Какие полезные ископаемые являются основными ресурсами недр Татарстана?",
       options: ["Нефть", "Золото", "Уголь", "Минеральные воды"],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
   ],
   Backend: [
@@ -75,7 +75,7 @@ const questions: { [key: string]: IQuestion[] } = {
       question:
         "Какой из следующих фреймворков является популярным для разработки на Java?",
       options: ["Flask", "Express", "Spring", "Django"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: "Что такое ORM?",
@@ -85,13 +85,13 @@ const questions: { [key: string]: IQuestion[] } = {
         "Язык разметки для баз данных",
         "Протокол обмена данными",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
         "Какой из следующих фреймворков используется для разработки на Ruby?",
       options: ["Laravel", "Django", "Ruby on Rails", "Express"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: "Что такое WebSocket?",
@@ -101,7 +101,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Метод отправки запросов к API",
         "Язык программирования",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: "Что такое JWT (JSON Web Token)?",
@@ -111,7 +111,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Протокол передачи данных",
         "Фреймворк для работы с API",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: "Что такое API?",
@@ -121,7 +121,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Язык программирования",
         "Фреймворк для создания веб-приложений",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question: "Что такое NoSQL?",
@@ -131,29 +131,29 @@ const questions: { [key: string]: IQuestion[] } = {
         "Протокол передачи данных",
         "Язык программирования",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
         "Какой из этих инструментов используется для автоматизации процессов сборки и развертывания приложений?",
       options: ["Git", "Jenkins", "Docker", "Nginx"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
         "Какой из этих методов аутентификации является наиболее распространенным в современных веб-приложениях?",
       options: ["Basic Auth", "Token Auth", "Digest Auth", "OAuth 2.0"],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
     {
       question: 'Что такое "CORS" (Cross-Origin Resource Sharing)?',
       options: [
-        "Механизм, позволяющий ограничить доступ к ресурсам на одном домене с другого домена.",
-        "Протокол передачи данных.",
-        "Язык программирования.",
-        "Фреймворк для создания API.",
+        "Механизм, позволяющий ограничить доступ к ресурсам на одном домене с другого домена",
+        "Протокол передачи данных",
+        "Язык программирования",
+        "Фреймворк для создания API",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
   ],
   "Product Management": [
@@ -165,7 +165,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Процесс управления проектами",
         "Процесс продаж",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: "Что такое MVP (минимально жизнеспособный продукт)?",
@@ -175,7 +175,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Продукт, который уже вышел на рынок",
         "Продукт с высокой ценой",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: "Что такое Agile?",
@@ -185,7 +185,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Методология, использующая только водопадный подход",
         "Методология, основанная на гибкости и итеративном подходе к разработке продукта",
       ],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
     {
       question: 'Что такое "продуктовая стратегия"?',
@@ -195,7 +195,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Описание функций продукта",
         "План по увеличению продаж",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question: 'Что такое "план выпуска продукта"?',
@@ -205,7 +205,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "План по увеличению прибыли",
         "План по обучению команды",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: 'Что такое "продуктовая метрика"?',
@@ -215,7 +215,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Стратегия маркетинга продукта",
         "Отчет о продажах",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
@@ -226,7 +226,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Возраст и пол",
         "Все вышеперечисленное",
       ],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
     {
       question:
@@ -237,7 +237,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "PESTLE-анализ",
         "Анализ данных",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
@@ -248,7 +248,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Lean Startup",
         "Все вышеперечисленное",
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question:
@@ -259,7 +259,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Тестирование продукта на целевой аудитории",
         "Все вышеперечисленное",
       ],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
   ],
   "Oil industry": [
@@ -267,25 +267,25 @@ const questions: { [key: string]: IQuestion[] } = {
       question:
         "Какой из следующих процессов используется для извлечения нефти из подземных резервуаров?",
       options: ["Дистилляция", "Фракционирование", "Бурение", "Кристаллизация"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question:
         "Какой из следующих терминов обозначает смесь углеводородов, содержащуюся в нефти?",
       options: ["Газ", "Сажа", "Нефть", "Вода"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question:
         "Какой метод переработки нефти используется для получения бензина?",
       options: ["Крекинг", "Полимеризация", "Гидрогенизация", "Оксидирование"],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
         "В какой стране находится крупнейшее нефтяное месторождение в мире — Гавар?",
       options: ["Иран", "Саудовская Аравия", "Ирак", "Россия"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: 'Что такое "нефтяной шельф"?',
@@ -295,7 +295,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Хранилище для нефти",
         "Подводные участки, где находятся нефтяные запасы",
       ],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
     {
       question: 'Что такое "нефтяной кризис"?',
@@ -305,13 +305,13 @@ const questions: { [key: string]: IQuestion[] } = {
         "Проблемы с поставками нефти",
         "Снижение спроса на нефть",
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question:
         "Как называется крупнейшая нефтяная компания в мире по объему добычи?",
       options: ["ExxonMobil", "BP", "Saudi Aramco", "Shell"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: 'Что такое "нефтепровод"?',
@@ -321,7 +321,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Месторождение нефти под землей",
         "Нефтяная платформа на море",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: 'Что такое "нефтяная платформа"?',
@@ -331,7 +331,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Установка для переработки нефти",
         "Хранилище для хранения готовых нефтепродуктов",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question: "Какой из следующих факторов не влияет на качество нефти?",
@@ -341,7 +341,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Время года, когда была добыта нефть",
         "Состав углеводородов в нефти",
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
   ],
   Frontend: [
@@ -349,7 +349,7 @@ const questions: { [key: string]: IQuestion[] } = {
       question:
         "Какой язык программирования является основным для создания интерактивных веб-страниц?",
       options: ["HTML", "CSS", "JavaScript", "PHP"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: "Что такое HTML?",
@@ -359,7 +359,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Язык программирования",
         "База данных",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: "Что такое DOM?",
@@ -369,31 +369,31 @@ const questions: { [key: string]: IQuestion[] } = {
         "Дизайнерская объектная модель",
         "Данные объектной модели",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
         "Какой из следующих фреймворков является популярным для создания пользовательских интерфейсов?",
       options: ["Django", "Flask", "React", "Laravel"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question:
         "Какой из следующих атрибутов используется для создания гиперссылки в HTML?",
       options: ["link", "src", "href", "url"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question:
         "Какой метод используется для добавления нового элемента в конец массива в JavaScript?",
       options: ["push()", "pop()", "shift()", "unshift()"],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
-        "Какой из этих фреймворков является библиотекой для работы с JavaScript?",
-      options: ["Angular", "Vue.js", "jQuery", "Все вышеперечисленное"],
-      correctAnswer: 4,
+        "Что из перечисленного является фреймворком является для работы с JavaScript?",
+      options: ["React", "Angular", "jQuery", "Все вышеперечисленное"],
+      correctAnswer: 1,
     },
     {
       question: 'Что такое "CSS Grid"?',
@@ -403,7 +403,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Инструмент для работы с изображениями",
         "Фреймворк для JavaScript",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: 'Что такое "webpack"?',
@@ -413,16 +413,54 @@ const questions: { [key: string]: IQuestion[] } = {
         "Фреймворк для создания пользовательских интерфейсов",
         "Библиотека для работы с CSS",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
         "Какой из этих тегов используется для определения раздела страницы в HTML5?",
       options: ["<section>", "<div>", "<article>", "Все вышеперечисленное"],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
   ],
   IT: [
+    {
+      question: "Какое из этих событий произошло раньше?",
+      options: [
+        "Стартовали продажи первого iPhone",
+        "Выпустили Nintendo Switch",
+        "Джек Дорси написал первый твит",
+        "Вышло первое видео на YouTube",
+      ],
+      correctAnswer: 3,
+    },
+    {
+      question: "Иконка какого приложения не содержит оттенков зеленого?",
+      options: ["Gmail", "WhatsApp", "Discord", "Doodle Jump"],
+      correctAnswer: 2,
+    },
+    {
+      question:
+        "Какой заголовочный файл нужно подключить в С++ для выполнения математических операций?",
+      options: ["<cmath>", "<cassert>", "<cstring>", "<iomanip>"],
+      correctAnswer: 0,
+    },
+    {
+      question:
+        "Как называется способность функции обрабатывать данные разных типов?",
+      options: ["Абстракция", "Инкапсуляция", "Наследование", "Полиморфизм"],
+      correctAnswer: 3,
+    },
+    {
+      question: "Big Blue - это прозвище какой американской компании?",
+      options: ["Apple", "Microsoft", "Intel", "IBM"],
+      correctAnswer: 3,
+    },
+    {
+      question:
+        "В какой арабской стране в 2025 году пройдут первые Олимпийские киберспортивные игры?",
+      options: ["Саудовская Аравия", "Бахрейн", "ОАЭ", "Катар"],
+      correctAnswer: 0,
+    },
     {
       question:
         "По мотивам рассказов какого американца поставлен фильм «Я, Робот»?",
@@ -432,25 +470,25 @@ const questions: { [key: string]: IQuestion[] } = {
         "Роберт Шекли",
         "Клиффорд Саймак",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
         "До недавнего переезда штаб-квартира компании Oracle находилась недалеко от города Сан-Карлос. Назовите код аэропорта города Сан-Карлос.",
       options: ["SQL", "MDX", "Gremlin", "LINQ"],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
         "Какой коллектив вошёл в Книгу рекордов Гиннесса как «Самая успешная виртуальная группа»?",
       options: ["Gorillaz", "Глюк оZа", "Duft Punk", "Crazy Frog"],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
         "В национальном парке Аокигахара расположены крупные залежи руды, и некий предмет там не функционирует. На логотипе какого браузера размещён этот предмет?",
       options: ["Chrome", "Safari", "Atom", "Firefox"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
   ],
   "Анализ данных": [
@@ -462,7 +500,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Процесс классификации данных",
         "Метод визуализации данных",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question: "Что такое регрессионный анализ?",
@@ -472,7 +510,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Метод для визуализации данных",
         "Метод для очистки данных",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question: 'Что такое "выброс" в наборе данных?',
@@ -482,7 +520,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Нормальное распределение данных",
         "Процесс очистки данных",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: 'Что такое "нормальное распределение"?',
@@ -492,7 +530,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Распределение с равными частями",
         "Распределение, где данные не имеют закономерностей",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: 'Что такое "кросс-валидация"?',
@@ -502,7 +540,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Метод оценки модели на различных подвыборках",
         "Метод группировки данных",
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: 'Что такое "кластеризация"?',
@@ -512,7 +550,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Процесс поиска закономерностей в временных рядах",
         "Процесс обработки текстовых данных",
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: 'Что такое "доверительный интервал"?',
@@ -522,7 +560,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Интервал, в котором с заданной вероятностью находится истинное значение параметра популяции",
         "Интервал, показывающий количество выбросов",
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: 'Что такое "гипотеза" в контексте статистического анализа?',
@@ -532,7 +570,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Предположение о распределении данных",
         "Все вышеперечисленное",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
@@ -543,7 +581,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Нормализация",
         "Все вышеперечисленное",
       ],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
     {
       question: 'Что такое "фрейм данных" в контексте анализа данных?',
@@ -553,30 +591,30 @@ const questions: { [key: string]: IQuestion[] } = {
         "Набор алгоритмов для анализа",
         "Система хранения данных",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
   ],
   Татнефть: [
     {
       question: "Первое упоминание о «казанской нефти» датируется",
       options: ["1836", "1568", "1377", "1950"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question:
         "Как называется первое самое крупное месторождение нефти в Татарстане",
       options: ["Мамонтовское", "Русское", "Ромашкинское", "Федоровское"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: "Количество собственных АЗС насчитывает:",
       options: ["Более 550", "Более 700", "Более 630", "Более 800"],
-      correctAnswer: 2,
+      correctAnswer: 1,
     },
     {
       question: "В какому году добыто трехмиллиардная тонна нефти?",
       options: ["2007", "2010", "2017", "2022"],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question: "Хоккейный клуб «Ак Барс» стал обладателем:",
@@ -586,7 +624,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Кубок Гагарина",
         "Кубок континента им .В.В. Тихонова",
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question:
@@ -597,18 +635,18 @@ const questions: { [key: string]: IQuestion[] } = {
         "3 млн. деревьев",
         "5 млн. деревьев",
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
     },
     {
       question:
         "Нефтеперерабатывающий завод «ТАНЕКО» производит бензин класса:",
       options: ["ЕВРО-3", "ЕВРО-4", "ЕВРО-5", "ЕВРО-6"],
-      correctAnswer: 4,
+      correctAnswer: 3,
     },
     {
       question: "Год образования объединения «Татнефть»:",
       options: ["1925", "1949", "1950", "1963"],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question:
@@ -619,7 +657,7 @@ const questions: { [key: string]: IQuestion[] } = {
         "Стекловолокна",
         "Многомодового оптоволокна",
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       question: "Цель устойчивого развития Компании:",
@@ -629,7 +667,111 @@ const questions: { [key: string]: IQuestion[] } = {
         "Улучшение системы управления воздействием на окружающую среду",
         "Все варианты верны",
       ],
-      correctAnswer: 4,
+      correctAnswer: 3,
+    },
+  ],
+  "Искусственный интеллект и машинное обучение": [
+    {
+      question: "Что такое глубокое обучение (deep learning)?",
+      options: [
+        "Метод шифрования данных",
+        "Техника медитации",
+        "Алгоритм сортировки",
+        "Подмножество машинного обучения, основанное на искусственных нейронных сетях",
+      ],
+      correctAnswer: 3,
+    },
+    {
+      question:
+        "Какой алгоритм используется для классификации объектов на основе их признаков?",
+      options: [
+        "Метод главных компонент",
+        "Линейная регрессия",
+        "Случайный лес (Random Forest)",
+        "Алгоритм k-средних",
+      ],
+      correctAnswer: 2,
+    },
+    {
+      question: "Что такое переобучение (overfitting) в машинном обучении?",
+      options: [
+        "Ситуация, когда модель слишком хорошо работает на тестовых данных",
+        "Процесс оптимизации гиперпараметров",
+        "Метод увеличения объема обучающей выборки",
+        "Ситуация, когда модель слишком хорошо подстраивается под обучающие данные и плохо обобщается",
+      ],
+      correctAnswer: 3,
+    },
+    {
+      question: "Какой тип задач решает алгоритм k-ближайших соседей (k-NN)?",
+      options: [
+        "Кластеризация",
+        "Классификация и регрессия",
+        "Оптимизация",
+        "Генерация текста",
+      ],
+      correctAnswer: 1,
+    },
+    {
+      question: "Что такое функция активации в нейронных сетях?",
+      options: [
+        "Функция для инициализации весов",
+        "Метод оптимизации градиентного спуска",
+        "Нелинейная функция, преобразующая взвешенную сумму входов нейрона",
+        "Алгоритм обратного распространения ошибки",
+      ],
+      correctAnswer: 2,
+    },
+    {
+      question: "Какой метод используется для уменьшения размерности данных?",
+      options: [
+        "Метод опорных векторов (SVM)",
+        "Метод главных компонент (PCA)",
+        "Наивный байесовский классификатор",
+        "Алгоритм A*",
+      ],
+      correctAnswer: 1,
+    },
+    {
+      question: "Что такое TensorFlow?",
+      options: [
+        "Новый тип процессора для ИИ",
+        "Язык программирования для машинного обучения",
+        "Открытая программная библиотека для машинного обучения",
+        "Алгоритм обработки естественного языка",
+      ],
+      correctAnswer: 2,
+    },
+    {
+      question:
+        "Какой тип нейронной сети лучше всего подходит для обработки последовательных данных, таких как текст или временные ряды?",
+      options: [
+        "Сверточные нейронные сети (CNN)",
+        "Рекуррентные нейронные сети (RNN)",
+        "Полносвязные нейронные сети",
+        "Радиальные базисные функции (RBF)",
+      ],
+      correctAnswer: 1,
+    },
+    {
+      question: "Что такое градиентный спуск в контексте машинного обучения?",
+      options: [
+        "Метод визуализации данных",
+        "Алгоритм кластеризации",
+        "Метод оптимизации для нахождения минимума функции потерь",
+        "Техника аугментации данных",
+      ],
+      correctAnswer: 2,
+    },
+    {
+      question: 'Что такое "выброс" (outlier) в анализе данных?',
+      options: [
+        "Точка данных, которая значительно отличается от других наблюдений",
+        "Метод удаления некорректных данных из набора",
+        "Процесс добавления новых данных в выборку",
+        "Техника визуализации экстремальных значений",
+      ],
+      correctAnswer: 0,
     },
   ],
 };

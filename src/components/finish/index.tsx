@@ -7,6 +7,7 @@ interface Props {
 }
 
 const Finish: React.FC<Props> = ({ onRestart, totalPoints }) => {
+  console.log('totalPoints finish', totalPoints)
   return (
     <div className="finish">
       <img

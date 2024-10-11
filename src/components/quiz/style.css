@@ -59,6 +59,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  padding: 20px;
 }
 .btn-quiz {
   width: 500px;

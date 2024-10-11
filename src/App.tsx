@@ -28,6 +28,7 @@ function App() {
   const [gameFinished, setGameFinished] = useState(false);
   const [completedCategories, setCompletedCategories] = useState(0);
   const [totalPoints, setTotalPoints] = useState(0);
+  console.log('totalPoints App', totalPoints)
 
   const handleStart = () => {
     setGameStarted(true);
@@ -47,11 +48,9 @@ function App() {
       (cat) => cat.name === category.name
     )!;
     setSelectedCategory(updatedCategory);
-
     setCurrentQuestion(0);
     setQuizCompleted(false);
     setViewingResults(null);
-    console.log("categories", categories);
   };
 
   const handleAnswer = (answerIndex: number) => {
@@ -74,6 +73,7 @@ function App() {
 
       setSelectedCategory(updatedCategory);
 
+      console.log('isCorrect App', isCorrect)
       if (isCorrect) {
         setTotalPoints(totalPoints + POINTS_PER_QUESTION);
       }
